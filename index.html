@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Rock-Paper-Scissors</h1>
+    <p>Can you beat the computer?</p>
+  </header>
+  <main>
+    <section id="game">
+      <div class="choices">
+        <button id="rock">
+          <img src="media/images/rock-icon.svg" alt="Rock">
+          <span>Rock</span>
+        </button>
+        <button id="paper">
+          <img src="media/images/paper-icon.svg" alt="Paper">
+          <span>Paper</span>
+        </button>
+        <button id="scissors">
+          <img src="media/images/scissors-icon.svg" alt="Scissors">
+          <span>Scissors</span>
+        </button>
+      </div>
+    </section>
+    <section id="results">
+      <h2>Results</h2>
+      <p id="human-choice">Your choice: </p>
+      <p id="computer-choice">Computer's choice: </p>
+      <p id="winner">Winner: </p>
+      <div class="scores">
+        <p>Human Score: <span id="human-score">0</span></p>
+        <p>Computer Score: <span id="computer-score">0</span></p>
+      </div>
+      <p id="round-info">Round: 0 / 5</p>
+      <button id="reset">Reset</button>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © ZackCornfield</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
